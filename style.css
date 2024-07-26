@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 101px 36px 100px;
+    background-color: black;
+
+}
+
+.nav_list>ul>li>a {
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav_list>ul {
+    display: flex;
+    list-style: none;
+    gap: 41px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.first_section {
+    background-image: url('./assets/Rectangle\ 2\ \(1\).png');
+    height: 594px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 131px;
+    align-items: center;
+    padding: 37px 101px 88px 87px;
+}
+
+.position_list {
+    width: 602px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.position_list>p {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.card {
+    width: 237px;
+    height: 209px;
+    background-color: greenyellow;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 271px;
+}
+
+.card_child_1 {
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    position: absolute;
+    right: -50%;
+    top: -50%
+}
+
+.card_child_2 {
+    width: 411px;
+    height: 209px;
+    background-color: red;
+    position: absolute;
+    border-radius: 100px;
+    top: -50%;
+    left: -35%;
+}
+
+.card_child_3 {
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    position: absolute;
+    left: -50%;
+    top: -50%
+}
+
+.card_text {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    display: flex;
+
+}
+
+.card_text_2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    gap: 146px 46px;
+
+}
+
+.card_text_3 {
+    width: 132px;
+    height: 29px;
+    top: 612px;
+    left: 1155px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+}
+
+.Information_list {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+    background-color: white;
+}
+
+.Information_list {
+    width: 602px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Information_1 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.section_2 {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
+.card_2 {
+    width: 368px;
+    height: 332px;
+    top: 1044px;
+    left: 87px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+}
+
+.card_3 {
+    width: 368px;
+    height: 332px;
+    top: 1044px;
+    left: 543px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: red;
+}
+
+.card_4 {
+    width: 368px;
+    height: 332px;
+    top: 1044px;
+    left: 543px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(255, 0, 0, 0.695);
+}
+
+.container_card {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.text_1 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+
+}
+
+.text_2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+
+}
+.text_3{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.73px;
+text-align: center;
+}
+.text_4{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.73px;
+text-align: center;
+align-items: center;
+}
+
+.Information_list{
+    display: flex;
+    justify-content: center;
+}
+
+.section_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;  
+}
+.img{
+    align-items: center;
+}
